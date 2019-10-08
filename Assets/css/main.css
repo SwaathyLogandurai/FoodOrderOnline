@@ -1,0 +1,101 @@
+.outerDiv{
+    border: 2px solid lightgray;
+    display: table;
+    width: 900px;
+    height: 70%;
+    margin: auto;
+    border-spacing: 40px;
+    
+}
+.menuDiv{
+    display: table-cell;
+    border: 1px dotted lightgreen;
+    
+}
+
+.imgDiv img{
+    width:100%;
+    height:35%;
+}
+.veg .fa-stack{
+    color:green;
+}
+.nonveg .fa-stack{
+    color:red;
+}
+.fa-circle{
+    font-size:11px;
+}
+
+.fa-square-o{
+    font-size:21px;
+    bottom:6px;
+}
+.menuItem .itemName{
+    display:inline;
+    font-family:calibri;
+    padding-bottom:20px;
+}
+.cuisines{
+    display:block;
+    position: relative;
+    left:15%;
+    font-family: calibri;
+    color:darkgray;
+    font-size:15px;
+}
+.price{
+    display:inline;
+    position: relative;
+    left:15%;
+    font-family: calibri;
+    padding: 5% 0;
+}
+.price span{
+    font-size :20px;  
+}
+.addBtn{
+    display: inline;
+    cursor: pointer;
+    left:35%;
+    position: relative;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 750;
+    color:green;
+    
+}
+.offers{
+    margin-top: 20px;
+    position: relative;
+    border-top: 1px solid lightgrey;
+    width: 80%;
+    padding: 5px 0 ;
+    right: 0px;
+    left: 22px;
+    height:45px;
+}
+
+
+.offers .fa{
+    color: orange;
+    font-size: 30px;
+}
+.icon-text{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    font-size: 18px !important;
+    color: white;
+}
+.myoff_icon{
+    position: relative;
+}
+.offText{
+    font-size: 12px;
+    font-family: calibri;
+    top: -6px;
+    position: relative;
+}
