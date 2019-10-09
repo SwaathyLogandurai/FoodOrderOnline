@@ -9,6 +9,7 @@
 }
 .menuDiv{
     display: table-cell;
+    position: relative;
     border: 1px dotted lightgreen;
     
 }
@@ -98,4 +99,24 @@
     font-family: calibri;
     top: -6px;
     position: relative;
+}
+.tag {
+    position: absolute;
+    top: 0px;
+    left:-6px;
+    background-color: crimson;
+    font-size:0.75rem;
+    font-weight: 500;
+    padding: 5px;
+    width: 30%;
+    color: white;
+}
+.tagStart{
+    position: absolute;
+    content: "";
+    border-style: solid;
+    left: 0;
+    bottom: -6px;
+    border-width: 3px;
+    border-color:crimson crimson transparent transparent ;
 }
